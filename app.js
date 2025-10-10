@@ -11,7 +11,6 @@ boxes.forEach((box) => {
 
     ripple.style.left = x + "px";
     ripple.style.top = y + "px";
-
     ripple.style.width = ripple.style.height =
       Math.max(rect.width, rect.height) + "px";
     ripple.style.marginLeft = -parseInt(ripple.style.width) / 2 + "px";
